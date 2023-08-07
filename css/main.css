@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --yellow: #ffbd59;
+    --bs-secondary: #384856;
+    --footer: #802C2C;
+    --botton: #fd6262;
+}
+
+.navbar.bg-body-secondary, .bg-dark-subtle {
+    background-color: var(--yellow) !important;
+}
+.bg-danger-subtle, .bg-info-subtle {
+    background-color: var(--footer) !important;
+
+}
+.btn bg-danger-subtle {
+    background-color: var(--botton) !important;
+}
