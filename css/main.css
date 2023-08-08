@@ -20,3 +20,6 @@
 .btn bg-danger-subtle {
     background-color: var(--botton) !important;
 }
+images{
+    height: auto;
+}

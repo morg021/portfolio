@@ -88,12 +88,12 @@
         <h2 class="text-center mt-3">Welcome!</h2>
         <div class="row gap-1  justify-content-center mb-lg-4">
         <div class=" col-lg-5">
-          <img src="images/600.jpg" class="d-block w-100" alt="inn">
+          <!-- <img src="images/multi" class="d-block w-100" alt="inn"> -->
          
           <!-- <picture>
             <source 
-              srcset="images/square-320.jpg 320w,
-                      images/square-960.jpg 960w"
+              srcset="image/multimedia-320.jpg 320w,
+                      images/multimedia-920.jpg 960w"
               sizes="(max-width: 320px) 320px,
                       (max-width: 960px) 960px"
               media="(max-width: 800px)" />
@@ -107,11 +107,40 @@
             <img src="images/original.jpg" alt="original image">
           </picture> -->
 
-           <!-- 3000px -->
+          <!-- <picture>
+            <source 
+              srcset="images/multimedia-320.jpg 320w,
+                      images/multimedia-960.jpg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"
+              media="(max-width: 800px)" />
+
+              <source 
+              srcset="images/multimedia-320.jpg 320w,
+                      images/multimedia-960.jpg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"
+              media="(min-width: 800px)" />
+             <img src="images/multimedia.jpeg" alt="multimedia image" class="d-block w-100">
+            </picture> -->
+  
+            <picture>
+              <source srcset="images/multimedia-960.jpg 960w"
+                      media="(min-width: 960px)" />
+          
+              <source srcset="images/multimedia-320.jpg 320w"
+                      media="(min-width: 320px)" />
+          
+              <img class="orig-img"
+                   src="images/multimedia.jpeg"
+                   alt="multimedia image">
+          </picture>
+          
 
    
 
 
+            <!-- <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" > -->
 
 
 
@@ -120,16 +149,50 @@
           <p>At Morgan Design Techniques, we are passionate about creating exceptional digital 
             experiences that leave a lasting impression. With a team of skilled web developers, </p>
             <p>designers, and strategists, we offer a comprehensive range of services to help businesses thrive in the online landscape. Whether you need a stunning website, an engaging e-commerce platform, or custom web applications, we’ve got you covered.</p>
-          <p class="d-md-no">comprehensive range of services to help businesses thrive in the online landscape. Whether you need a stunning website, an engaging e-commerce platform, or custom web applications, we’ve got you covered.</p>
+          
         </div>
       </div>
     </div>
       <div class="row gap-3 justify-content-center mt-3 mb-3 p-2 text-center">
         <h3>Our Services</h3>
-        <div class="col-md-3"> <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
-          <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Content Managment</button></div>
-        <div class="col-md-3"> <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
-          <button type="button" class="btn bg-danger-subtle p-1  mt-2 text-white" disabled>Web Development</button></div>
+        <div class="col-md-3">
+          <picture>
+            <source 
+              srcset="images/web-dev.jpg 320w,
+                      images/web-dev.jpg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"
+              media="(max-width: 800px)" />
+
+              <source 
+              srcset="images/web-dev.jpg 320w,
+                      images/web-dev.jpg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"
+              media="(min-width: 800px)" />
+              <img src="images/web-dev.jpeg" alt="web developer image">
+            </picture>
+          <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Web Development</button>
+        </div>
+        <div class="col-md-3"> 
+          <!-- <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" > -->
+          <picture>
+            <source 
+              srcset="images/video-pro.jpg 320w,
+                      images/video-pro.jpg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"
+              media="(max-width: 800px)" />
+            <source 
+              srcset="images/video-pro.jpg 320w,
+              images/video-pro.jpg 960w"
+           sizes="(max-width: 320px) 320px,
+              (max-width: 960px) 960px"
+               media="(min-width: 800px)" />
+              <img src="images/video-pro.jpeg" alt="web developer image" class="d-block w-100">
+            </picture>
+          <button type="button" class="btn bg-danger-subtle p-1  mt-2 text-white" disabled>Web Development</button>
+        </div>
         <div class=" col col-md-3"> <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
           <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Video Production</button></div>
     </div>
