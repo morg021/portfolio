@@ -1,258 +1,174 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/cd93421b83.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-secondary" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="images/Asset 2logo.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <script src="https://kit.fontawesome.com/cd93421b83.js" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg bg-body-secondary" >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/Asset 2logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+              <ul class="navbar-nav  text-center mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Project
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="http://morgantechniques.com/" target="_blank">WordPress</a></li>
+                    <li><a class="dropdown-item" href="http://drupal.morgantechniques.com/" target="_blank">Drupal</a></li>
+                    <li><a class="dropdown-item" href=" https://morg021.github.io/mtm6201-midterm/" target="_blank">Web Development</a></li>
+                    <li><a class="dropdown-item" href="https://fine-clothing1.myshopify.com/" target="_blank">Shopify</a></li>
+                  </ul>
+                  </ul>
+                </li>
+                
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/header-1-960.jpg" class="d-block w-100" alt=" header image">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Home Page</h1>
+                <p class="fs-3 pb-5">Your goal is ours</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/header-2-960.jpg" class="d-block w-100" alt="header image">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Home Page</h1>
+                <p class="fs-3">Your goal is ours</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/header-3-960.jpg" class="d-block w-100" alt="header image">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Home Page</h1>
+                <p class="fs-3">Your goal is ours</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-          <div class="collapse navbar-collapse"  id="navbarSupportedContent">
-            <ul class="navbar-nav  text-center mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Project
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="http://morgantechniques.com/" target="_blank">WordPress</a></li>
-                  <li><a class="dropdown-item" href="http://drupal.morgantechniques.com/" target="_blank">Drupal</a></li>
-                  <li><a class="dropdown-item" href=" https://morg021.github.io/mtm6201-midterm/" target="_blank">Web Development</a></li>
-                  <li><a class="dropdown-item" href="https://fine-clothing1.myshopify.com/" target="_blank">Shopify</a></li>
-                </ul>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="images/header-1.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Home Page</h1>
-              <p class="fs-3 pb-5">Your goal is ours</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/header-2.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Home Page</h1>
-              <p class="fs-3">Your goal is ours</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/header-3.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Home Page</h1>
-              <p class="fs-3">Your goal is ours</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-      <div class="">
-        <h2 class="text-center mt-3">Welcome!</h2>
-        <div class="row gap-1  justify-content-center mb-lg-4">
-        <div class=" col-lg-5">
-          <!-- <img src="images/multi" class="d-block w-100" alt="inn"> -->
-         
-          <!-- <picture>
-            <source 
-              srcset="image/multimedia-320.jpg 320w,
-                      images/multimedia-920.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(max-width: 800px)" />
-            
-            <source 
-              srcset="images/rectangle-320.jpg 320w,
-                      images/rectangle-960.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (min-width: 960px) 960px"
-              media="(min-width: 800px)" />
-            <img src="images/original.jpg" alt="original image">
-          </picture> -->
-
-          <!-- <picture>
-            <source 
-              srcset="images/multimedia-320.jpg 320w,
-                      images/multimedia-960.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(max-width: 800px)" />
-
-              <source 
-              srcset="images/multimedia-320.jpg 320w,
-                      images/multimedia-960.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(min-width: 800px)" />
-             <img src="images/multimedia.jpeg" alt="multimedia image" class="d-block w-100">
-            </picture> -->
-  
-            <picture>
-              <source srcset="images/multimedia-960.jpg 960w"
-                      media="(min-width: 960px)" />
-          
-              <source srcset="images/multimedia-320.jpg 320w"
-                      media="(min-width: 320px)" />
-          
-              <img class="d-block w-100"
-                   src="images/multimedia.jpeg"
-                   alt="multimedia image">
-          </picture>
-          
-
-   
-
-
-            <!-- <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" > -->
-
-
-
-        </div>
-        <div class=" col-lg-5 bg-dark-subtle  text-center ">
-          <p>At Morgan Design Techniques, we are passionate about creating exceptional digital 
-            experiences that leave a lasting impression. With a team of skilled web developers, </p>
-            <p>designers, and strategists, we offer a comprehensive range of services to help businesses thrive in the online landscape. Whether you need a stunning website, an engaging e-commerce platform, or custom web applications, we’ve got you covered.</p>
-          
-        </div>
-      </div>
-    </div>
-      <div class="row gap-3 justify-content-center mt-3 mb-3 p-2 text-center">
-        <h3>Our Services</h3>
-        <div class="col-md-3">
-          <picture>
-            <source 
-              srcset="images/web-dev.jpg 320w,
-                      images/web-dev.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(max-width: 800px)" />
-
-              <source 
-              srcset="images/web-dev.jpg 320w,
-                      images/web-dev.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(min-width: 800px)" />
-              <img src="images/web-dev.jpeg" alt="web developer image">
-            </picture>
-          <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Web Development</button>
-        </div>
-        <div class="col-md-3"> 
-          <!-- <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" > -->
-          <picture>
-            <source 
-              srcset="images/video-pro.jpg 320w,
-                      images/video-pro.jpg 960w"
-              sizes="(max-width: 320px) 320px,
-                      (max-width: 960px) 960px"
-              media="(max-width: 800px)" />
-            <source 
-              srcset="images/video-pro.jpg 320w,
-              images/video-pro.jpg 960w"
-           sizes="(max-width: 320px) 320px,
-              (max-width: 960px) 960px"
-               media="(min-width: 800px)" />
-              <img src="images/video-pro.jpeg" alt="web developer image" class="d-block w-100">
-            </picture>
-          <button type="button" class="btn bg-danger-subtle p-1  mt-2 text-white" disabled>Web Development</button>
-        </div>
-        <div class=" col col-md-3"> <img src="images/image-4.jpg" class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
-          <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Video Production</button></div>
-    </div>
-   
-    <hr class="p-1  mt-5">
-    <h4 class="text-center">Costomer Satisfaction</h4>
-    <div class="container-fluid justify-content-between mb-4 d-md-flex text-center g-2">
-    <div class="col-md-3 p-1">
-      <blockquote>- The company had a wide range of equipment in stock, and the sales team helped me navigate through the available options to find the perfect fit for my requirements. They provided a competitive price, and the entire transaction was handled with professionalism and transparency-</blockquote>
-    </div>
-    <div class="col-md-3 p-1"><img src="images/p-1.jpg"  class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
-      <p><b>James Reed</b></p>
-    </div>
-    <div class="col-md-3 p-1">
-      <blockquote> -They followed up to ensure I  stock, and the sales team helped me navigate through the available o was satisfied with the equipment and offered assistance with any troubleshooting or additional questions I had. Their prompt and helpful responses further solid experience-</blockquote>
-    </div>
-    <div class="col-md-3 p-1"><img src="images/p-2.jpg" class="img-thumbnail rounded mx-auto d-block w-100" alt="inn" >
-      <p><b>Tatasha More</b></p>
-    </div>
-  </div>
-  <hr class="p-1 mb-5">
-     <footer>
-      <div class="bg-danger-subtle p-3 text-white d-flex justify-content-end" >&copy; Morgan Design Techniques</div>
-      <div class="row gap-2 justify-content-evenly  bg-dark-subtle p-3 text-center text-md-left">
-        <div class="col-md-2" >
-          <address>
-           <h5>Address</h5>
-           1385 Woodroffe Avenue<br>
-           Ottawa, Ontario K2G1V8<br>
-            <i class="fa-solid fa-phone-volume"></i> 613-90006789
-            </address>
-        </div>
-        <div class="col-md-2">
-          <button type="button" class="btn bg-danger-subtle text-white btn-lg">Contact Us</button><br><br>
-          <img src="images/Asset 2logo.png">
-          <p><i class="fa-solid fa-globe fa-beat-fade"></i> <a href="http://morgantechniques.com/"> www.morgantechniques.com</a></p>
-        </div>
-        <div class="col-md-2 p-2">
-          <i class="fa-brands fa-facebook fa-beat fa-lg"></i></i><br>
-          <i class="fa-brands fa-twitter fa-beat fa-lg"></i><br>
-          <i class="fa-brands fa-tiktok fa-beat fa-lg"></i>
-        </div>
-         <div class="col-md-2">
-          <form >
-            <p><b>Get Monthly News</b></p>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" ><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="fname">email</label><br>
-            <input type="text" id="email" name="email"><br>
-          
-            <a href="contactus.html"><button type="submit" class="btn btn bg-danger-subtle text-white mt-2">Subscribe Now </button></a>
-            
-          </form>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         
+        <div class="">
+          <h2 class="text-center mt-3">Welcome!</h2>
+          <div class="row gap-1  justify-content-center">
+          <div class=" col-lg-5">
+            <img src="images/web-dev-960.jpeg" class="d-block w-100" alt="inn">
+          </div>
+          <div class=" col-lg-5 bg-dark-subtle  text-center ">
+            <p><b>At Morgan Design Techniques,</b> we are passionate about creating exceptional digital 
+              experiences that leave a lasting impression. With a team of skilled web developers, designers, and strategists, we offer a comprehensive range of services to help businesses thrive in the online landscape. Whether you need a stunning website, an engaging e-commerce platform, or custom web applications, we’ve got you covered.</p>
+              <p>Whether you need a stunning website, an engaging e-commerce platform, or custom web applications, we’ve got you covered.</p>
+            
+          </div>
         </div>
-        </footer>
+      </div>
+        <div class="row gap-1 justify-content-center mt-2 mb-2 text-center">
+          <h3>Our Services</h3>
+          <div class="col-md-3">
+            <img src="images/ux-new.jpg" alt="multimedia image" class="img-thumbnail mx-auto d-block w-100">
+            <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white" disabled>Web Development</button>
+          </div>
+          <div class="col-md-3"> 
+            <img src="images/cms-960_x_639.jpeg" class="img-thumbnail  mx-auto d-block w-100"  alt="image of cms" >
+            <button type="button" class="btn bg-danger-subtle p-1  mt-2 text-white">Cont. Management</button>
+          </div>
+          <div class=" col-md-3"> <img src="images/video-pro-960.jpeg" class="img-thumbnail  mx-auto d-block w-100"  alt="image of video camera" >
+            <button type="button" class="btn bg-danger-subtle p-1 mt-2 text-white">Video Production</button>
+      </div>
+      </div>
+    
+      <hr class="p-1  mt-5">
+      <h4 class="text-center">Costomer Satisfaction</h4>
+      <div class="container-fluid justify-content-between mb-4 d-md-flex text-center g-2">
+      <div class="col-md-3 p-1">
+        <blockquote>- The company had a wide range of equipment in stock, and the sales team helped me navigate through the available options to find the perfect fit for my requirements. They provided a competitive price, and the entire transaction was handled with professionalism and transparency-</blockquote>
+      </div>
+      <div class="col-md-3 p-1"><img src="images/p-1.jpg"  class="img-thumbnail rounded mx-auto d-block w-100"  alt="inn" >
+        <p><b>James Reed</b></p>
+      </div>
+      <div class="col-md-3 p-1">
+        <blockquote> -They followed up to ensure I  stock, and the sales team helped me navigate through the available o was satisfied with the equipment and offered assistance with any troubleshooting or additional questions I had. Their prompt and helpful responses further solid experience-</blockquote>
+      </div>
+      <div class="col-md-3 p-1"><img src="images/p-2.jpg" class="img-thumbnail rounded mx-auto d-block w-100" alt="inn" >
+        <p><b>Tatasha More</b></p>
+      </div>
+    </div>
+    <hr class="p-1 mb-5">
+      <footer>
+        <div class="bg-danger-subtle p-3 text-white d-flex justify-content-end" >&copy; Morgan Design Techniques</div>
+        <div class="row gap-2 justify-content-evenly  bg-dark-subtle p-3 text-center text-md-left">
+          <div class="col-md-2" >
+            <address>
+            <h5>Address</h5>
+            1385 Woodroffe Avenue<br>
+            Ottawa, Ontario K2G1V8<br>
+              <i class="fa-solid fa-phone-volume"></i> 613-90006789
+              </address>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn bg-danger-subtle text-white btn-lg">Contact Us</button><br><br>
+            <img src="images/Asset 2logo.png">
+            <p><i class="fa-solid fa-globe fa-beat-fade"></i> <a href="http://morgantechniques.com/"> www.morgantechniques.com</a></p>
+          </div>
+          <div class="col-md-2 p-2">
+            <i class="fa-brands fa-facebook fa-beat fa-lg"></i></i><br>
+            <i class="fa-brands fa-twitter fa-beat fa-lg"></i><br>
+            <i class="fa-brands fa-tiktok fa-beat fa-lg"></i>
+          </div>
+          <div class="col-md-2">
+            <form >
+              <p><b>Get Monthly News</b></p>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" ><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <label for="fname">email</label><br>
+              <input type="text" id="email" name="email"><br>
+            
+              <a href="contactus.html"><button type="submit" class="btn btn bg-danger-subtle text-white mt-2">Subscribe Now </button></a>
+              
+            </form>
+          </div>
+          
+          </div>
+          </footer>
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
-</body>
-</html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
+  </body>
+  </html>
