@@ -10,7 +10,7 @@
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg  bg-body-secondary" >
+      <nav class="navbar navbar-expand-lg  bg-body-secondary" role="navigation" >
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image of company logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,21 +52,39 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="images/header-1-960.jpg" class="d-block w-100" alt="...">
+              <picture>
+                <source srcset="images/header-1-320_x_209.jpeg 320w,
+                                images/header-1-960.jpg 960w"
+                        sizes="(max-width: 320px) 320px,
+                                (max-width: 960px) 960px"/>
+                <img src="images/header-1.jpeg" alt="Header 1"  class="d-block w-100">
+              </picture>
               <div class="carousel-caption d-none d-md-block">
                 <h1>Contact Us</h1>
                 <p class="fs-3 pb-5">Your goal is ours</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/header-2-960.jpg" class="d-block w-100" alt="...">
+              <picture>
+                <source srcset="images/header-2-320_x_178.jpeg 320w,
+                                images/header-2-960.jpg 960w"
+                        sizes="(max-width: 320px) 320px,
+                                (max-width: 960px) 960px"/>
+                <img src="images/header-2.jpeg" alt="Header 2"  class="d-block w-100">
+              </picture>
               <div class="carousel-caption d-none d-md-block">
                 <h1>Contact Us</h1>
                 <p class="fs-3">Your goal is ours</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/header-3-960.jpg" class="d-block w-100" alt="...">
+              <picture>
+                <source srcset="images/header-3-320_x_179.jpeg 320w,
+                                images/header-3-960.jpg 960w"
+                        sizes="(max-width: 320px) 320px,
+                                (max-width: 960px) 960px"/>
+                <img src="images/header-3.jpeg" alt="Header 2"  class="d-block w-100">
+              </picture>
               <div class="carousel-caption d-none d-md-block">
                 <h1>Contact Us</h1>
                 <p class="fs-3">Your goal is ours</p>
@@ -88,7 +106,13 @@
         </div>
         <div class="container-fluid d-grid m-0 justify-content-center text-center">
           <h3>Get in Tourch</h3>
-          <img src="images/p-2.jpg" class="img-thumbnail p-2" alt="inn" >
+          <picture>
+            <source srcset="images/original-320.jpeg 320w,
+            images/original-960.jpeg 960w"
+              sizes="(max-width: 320px) 320px,
+                      (max-width: 960px) 960px"/>
+        <img src="images/original.jpeg" alt="image of business manager"  class="img-thumbnail mx-auto d-block w-50">
+        </picture>
           <h5>Lara Jones</h5>
           <h6>Business Manager</h6>
           laraj@mtn.com<br>
