@@ -1,10 +1,17 @@
 # Final assignment-Portfolio
 
+## Process and Chalanges faced
+Going through both Web Development 1 and 2 was an amazing journey. The course demanded utmost concentration due to its complexity. The course structure and the professor's guidance played a pivotal role in shaping my approach. Consistent attendance and punctuality were critical to succeed, as the professor was always ready to elucidate and ensure comprehension of each topic.
 
+During my progression through the course, I maintained a focused approach by diligently attending classes, submitting assignments promptly, and seeking clarification when needed. However, there were challenges I encountered, particularly in balancing my job commitments with study time. Concepts like image optimization and grid layout posed considerable difficulty for me to master.
 
-## Image Source 
+What enabled me to overcome these challenges was my genuine passion for web development. Driven by this passion, I willingly dedicated nights to assignments and projects, ultimately triumphing over the hurdles that came my way.
+
+### Image Source 
+Over 98% of the images I used for my project was purchased from this site.
 https://stock.adobe.com
 
+#### Links to the images used
 header-1
 https://stock.adobe.com/ae/Library/urn:aaid:sc:US:1b9ce241-0df0-47f1-945e-c6918cfc89dd?asset_id=126016889
 
