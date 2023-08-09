@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+/* Default colour scheme  using custom properties. */
 
 :root {
     --bs-blue: #0d6efd;
@@ -19,7 +17,4 @@
 }
 .btn bg-danger-subtle {
     background-color: var(--botton) !important;
-}
-images{
-    height: auto;
 }
